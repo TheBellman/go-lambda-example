@@ -17,4 +17,4 @@ phases:
 artifacts:
   files:
     - lambda
-  name: go-lambda-example-$(date +%Y-%m-%d) 
+  name: go-lambda-example-$(+%Y%m%d.%H%M%s) 
