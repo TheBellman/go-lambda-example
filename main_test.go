@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func TestHandleRequest(t *testing.T) {
-	want := "Hello Fred, from AWS"
+	want := "Hello Fred, from CodeCommit"
 	event := MyEvent{Name: "Fred"}
 
 	// our request handler ignores the context and is hardwired to not return an error
